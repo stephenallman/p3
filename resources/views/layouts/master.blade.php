@@ -11,7 +11,7 @@
 
 <!-- Bootstrap -->
 <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet'>
-  <link href="../public/css/jumbotron-narrow.css" rel="stylesheet">
+  <link href="/css/jumbotron-narrow.css" rel="stylesheet">
 
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -28,8 +28,8 @@
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href"../public/">Home</a></li>
-            <li role="presentation"><a href="../public/AboutP3.pdf">About</a></li>
+            <li role="presentation" ><a href"/public">Home</a></li>
+            <li role="presentation"><a href="/AboutP3.pdf">About</a></li>
           </ul>
         </nav>
         <h3 class="text-muted">Developer's Best Friend</h3>

@@ -5,8 +5,8 @@
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href"../>Home</a></li>
-            <li role="presentation"><a href="../public/AboutP3.pdf">About</a></li>
+            <li role="presentation" ><a href"/public"/>Home</a></li>
+            <li role="presentation"><a href="/AboutP3.pdf">About</a></li>
           </ul>
         </nav>
         <h3 class="text-muted">Developer's Best Friend</h3>
@@ -55,6 +55,6 @@ function auto_copyright($startYear = null) {
     </div>
   </div>
 </footer>
-<script src="../../../public/js/jquery-1.11.2.min.js"></script> 
-<script src="../../../public/js/bootstrap.min.js"></script>
+<script src="/js/jquery-1.11.2.min.js"></script> 
+<script src="/js/bootstrap.min.js"></script>
 </body>
