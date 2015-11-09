@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/p3":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/p3","hostpath":"/Applications/MAMP/htdocs/p3","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Applications/MAMP/htdocs/p3","disabled":false}}}

@@ -12,5 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('/index');
 });
+
+Route::get('/ipsum','ipsumController@getCreate');
+Route::get('/ipsum/create','ipsumController@getCreate');
+Route::post('/ipsum','ipsumController@postCreate');
+
+Route::get('/user','userController@getCreate');
+Route::get('/user/create','userController@getCreate');
+Route::post('/user','userController@postCreate');
+
+
+//
+//Route::get('ipsum/create', 'ipsumController@create');
+//Route::get('ipsum/{id}', 'ipsumController@show');
+
+if(App::environment('local')) {
+    Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+};
+
+
+

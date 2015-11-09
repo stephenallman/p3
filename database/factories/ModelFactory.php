@@ -15,6 +15,9 @@ $factory->define(p3\User::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->email,
+        'address' => $faker->address,
+        'image' => 'http://lorempixel.com/800/600/cats/'
+        'catchprase' => $faker->catchPhrase,
         'password' => bcrypt(str_random(10)),
         'remember_token' => str_random(10),
     ];
